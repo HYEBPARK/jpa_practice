@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <!-- 영속성 유닛-->
     <persistence-unit name="jpa_practice">
         <properties>
             <!-- 필수속성 -->
