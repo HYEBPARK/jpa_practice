@@ -16,7 +16,7 @@ public class Member {
     @Column(name = "NAME")
     private String username;
 
-    private Integer age;
+//    private Integer age;
 
     public String getId(){
         return id;
@@ -34,12 +34,12 @@ public class Member {
         this.username = username;
     }
 
-    public Integer getAge(){
-        return age;
-    }
-
-    public void setAge(Integer age){
-        this.age = age;
-    }
+//    public Integer getAge(){
+//        return age;
+//    }
+//
+//    public void setAge(Integer age){
+//        this.age = age;
+//    }
 
 }
